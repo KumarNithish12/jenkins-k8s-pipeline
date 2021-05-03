@@ -4,13 +4,13 @@ agent any
   stages {
     stage('build') {
       steps {
-        echo "Building..."
+        echo "Building...!"
       }
     }
     
     stage('test') {
       steps {
-        echo "testing..."
+        echo "testing...!"
       }
     }
   }
